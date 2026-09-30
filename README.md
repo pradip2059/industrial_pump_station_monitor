@@ -176,16 +176,25 @@ See:
 
 ## Screenshots
 
-Run the application and place portfolio screenshots in `screenshots/`.
+Portfolio screenshots are included in `screenshots/` to show representative HMI operating states.
 
-Suggested captures:
+### Normal Operation
 
-1. Normal operation
-2. Automatic pump running
-3. Automatic pump stopped
-4. High-level warning
-5. Critical-level shutdown
-6. Event historian and trend
+![Normal operation](screenshots/normal_operation.png)
+
+### High-Level Alarm
+
+![High-level alarm](screenshots/high_level_alarm.png)
+
+### Low-Level Alarm
+
+![Low-level alarm](screenshots/low_level_alarm.png)
+
+### Critical Shutdown
+
+![Critical shutdown](screenshots/critical_shutdown.png)
+
+These screenshots illustrate the intended simulator behavior for portfolio/demo purposes.
 
 ## Author
 

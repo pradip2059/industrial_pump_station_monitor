@@ -1,14 +1,10 @@
-# Screenshots
+# SCADA / HMI Screenshots
 
-Add screenshots of the running HMI here.
+These images illustrate the expected operating states of the Industrial Pump Station Control & Monitoring simulator.
 
-Recommended filenames:
+- `normal_operation.png` — normal/manual operating view with tank trend and event historian.
+- `high_level_alarm.png` — high-level warning condition above the 80% alarm threshold.
+- `low_level_alarm.png` — low-level warning condition below the 20% alarm threshold.
+- `critical_shutdown.png` — critical high-level shutdown at 100% tank level.
 
-- `normal_operation.png`
-- `auto_pump_running.png`
-- `auto_pump_stopped.png`
-- `high_level_alarm.png`
-- `critical_shutdown.png`
-- `historian_trend.png`
-
-Do not reuse screenshots from third-party projects unless you have permission to redistribute them.
+The screenshots are illustrative views of the simulator behavior and are included for portfolio presentation.
